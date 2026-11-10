@@ -1,0 +1,14 @@
+.profile-card {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4px;
+    border: #000 solid 2px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
