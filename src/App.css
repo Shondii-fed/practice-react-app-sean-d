@@ -1,14 +1,39 @@
+p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px;
+    padding: 5px;
+}
+
+p:hover {
+    font-weight: 600;
+    color: darkred;
+}
+
 .profile-card {
-    width: fit-content;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
     border: #000 solid 2px;
+    border-radius: 15px;
+    background-color: beige;
+    box-shadow: #000 1px 1px 2px 2px;
+}
+
+.profile-card:hover {
+    background-color: burlywood;
+    box-shadow: gray 1px 1px 1px 1px;
+    border: #000 solid 1.5px;
 }
 
 .profile-container {
+    width: 300 px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

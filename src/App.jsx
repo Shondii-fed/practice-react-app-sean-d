@@ -1,4 +1,5 @@
 import ProfileContainer from "./components/ProfileContainer"
+import './App.css'
 
 function App() {
   return (
